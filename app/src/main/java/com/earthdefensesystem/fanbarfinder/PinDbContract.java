@@ -17,8 +17,8 @@ public class PinDbContract {
                 PIN_TABLE_NAME +   "(" +
                 _ID +              " INTEGER PRIMARY KEY, " +
                 COLUMN_BAR +       " TEXT, " +
-                COLUMN_LATITUDE +  " DOUBLE, " +
-                COLUMN_LONGITUDE + " DOUBLE," +
+                COLUMN_LATITUDE +  " REAL, " +
+                COLUMN_LONGITUDE + " REAL," +
                 COLUMN_TEAM +      " TEXT," +
                 COLUMN_SPORT +     " TEXT," +
                 COLUMN_FAVORITE +  " INTEGER);";

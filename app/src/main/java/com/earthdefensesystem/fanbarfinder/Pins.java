@@ -5,6 +5,11 @@ public class Pins {
     private String bar, team, sport;
     private int favorite;
 
+    public Pins(String team, String sport){
+        this.team = team;
+        this.sport = sport;
+    }
+
     public Pins(Double latitude, Double longitude, String bar, String team, String sport, int favorite) {
         this.latitude = latitude;
         this.longitude = longitude;
@@ -12,8 +17,10 @@ public class Pins {
         this.team = team;
         this.sport = sport;
         this.favorite = favorite;
-    }
 
+
+
+    }
     public Double getLatitude() {
         return latitude;
     }
